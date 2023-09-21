@@ -13,6 +13,8 @@ int funcc_instru(stack_t **header,char *data, unsigned int number, FILE *file)
                 {"pint", funcc_pint},
                 {"pop", funcc_pop},
                 {"nop", funcc_nop},
+                {"sub", funcc_sub},
+                {"mul", funcc_mul},
                 {NULL, NULL}
                 };
     unsigned int i = 0;
