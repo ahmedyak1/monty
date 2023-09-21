@@ -71,6 +71,8 @@ void funcc_pop(stack_t **header, unsigned int numi);
 void funcc_swap(stack_t **header, unsigned int numi);
 void funcc_add(stack_t **header, unsigned int numi);
 void funcc_nop(stack_t **header, unsigned int numi);
+void funcc_sub(stack_t **header, unsigned int numi);
+void funcc_mul(stack_t **header, unsigned int numi);
 
 
 
