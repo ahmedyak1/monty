@@ -66,6 +66,11 @@ void funcc_free_stack(stack_t *header);
 void funcc_add_queue(stack_t **header, int n);
 void funcc_add_node(stack_t **header, int n);
 int  funcc_instru(stack_t **header, char *data, unsigned int number, FILE *file);
+void funcc_pint(stack_t **header, unsigned int numi);
+void funcc_pop(stack_t **header, unsigned int numi);
+void funcc_swap(stack_t **header, unsigned int numi);
+void funcc_add(stack_t **header, unsigned int numi);
+void funcc_nop(stack_t **header, unsigned int numi);
 
 
 
